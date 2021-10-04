@@ -4,7 +4,7 @@ using namespace std;
 
 double dB(double x0, double x1)
 {
-    return log(x1 / x0);
+    return 10 * log10(x1 / x0);
 }
 
 double div(double x0, double x1)
